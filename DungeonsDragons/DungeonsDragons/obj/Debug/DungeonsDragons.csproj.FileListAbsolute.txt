@@ -1,0 +1,133 @@
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\ApplicationInsights.config
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\csc.exe
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\vbc.exe
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll.config
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.pdb
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.xml
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.csprojResolveAssemblyReference.cache
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.dll
+C:\Users\Jacob Parry\Desktop\Dungeons\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.pdb
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\ApplicationInsights.config
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\csc.exe
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\vbc.exe
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll.config
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.pdb
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\AjaxControlToolkit.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.xml
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.xml
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.dll
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.pdb
+C:\Users\username\Dropbox\Microsoft Visual Studio 2015\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\ApplicationInsights.config
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\csc.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\vbc.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll.config
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.pdb
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.dll
+C:\Users\Thomas\Documents\Visual Studio 2015\Projects\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.pdb
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\ApplicationInsights.config
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\csc.exe
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\vbc.exe
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll.config
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\DungeonsDragons.pdb
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.Web.xml
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.csprojResolveAssemblyReference.cache
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.dll
+C:\Users\Jacob Parry\Desktop\IT350\DungeonsDragons\DungeonsDragons\DungeonsDragons\obj\Debug\DungeonsDragons.pdb

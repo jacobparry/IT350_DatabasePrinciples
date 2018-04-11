@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DungeonsDragons" Class="DungeonTrackerDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=BLACKTOWER;Initial Catalog=DungeonsDragons;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DungeonsDragonsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DD_Action" Member="DD_Actions">
+    <Type Name="DD_Action">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RaceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RequiredLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Action_DD_CharacterHasAction" Member="DD_CharacterHasActions" ThisKey="ID" OtherKey="ActionID" Type="DD_CharacterHasAction" />
+      <Association Name="DD_Class_DD_Action" Member="DD_Class" ThisKey="ClassID" OtherKey="ID" Type="DD_Class" IsForeignKey="true" />
+      <Association Name="DD_Race_DD_Action" Member="DD_Race" ThisKey="RaceID" OtherKey="ID" Type="DD_Race" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_User" Member="DD_Users">
+    <Type Name="DD_User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(255) NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="DD_User_DD_Character" Member="DD_Characters" ThisKey="ID" OtherKey="UserID" Type="DD_Character" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Adventure" Member="DD_Adventures">
+    <Type Name="DD_Adventure">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Campaign" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Adventure_DD_CharacterHasAdventure" Member="DD_CharacterHasAdventures" ThisKey="ID" OtherKey="AdventureID" Type="DD_CharacterHasAdventure" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Beastiary" Member="DD_Beastiaries">
+    <Type Name="DD_Beastiary">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CreepID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HasSeen" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Character_DD_Beastiary" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+      <Association Name="DD_Creep_DD_Beastiary" Member="DD_Creep" ThisKey="CreepID" OtherKey="ID" Type="DD_Creep" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Character" Member="DD_Characters">
+    <Type Name="DD_Character">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CharacterName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DateCreated" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="LastPlayed" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="RaceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CharacterLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MaxHitPoints" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TempHitPoints" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Strength" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Dexterity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Constitution" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Intelligence" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Wisdom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Charisma" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ArmorClass" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StrengthModifier" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DexterityModifier" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ConstitutionModifer" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IntelligenceModifier" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="WisdomModifier" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CharismaModifier" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StrengthSavingThrow" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DexteritySavingThrow" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ConstitutinSavingThrow" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IntelligenceSavingThrow" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="WisdomSavingThrow" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CharismaSavingThrow" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Background" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Faction" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Alignment" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ExperiencePoints" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DD_Character_DD_Beastiary" Member="DD_Beastiaries" ThisKey="ID" OtherKey="CharacterID" Type="DD_Beastiary" />
+      <Association Name="DD_Character_DD_CharacterHasAction" Member="DD_CharacterHasActions" ThisKey="ID" OtherKey="CharacterID" Type="DD_CharacterHasAction" />
+      <Association Name="DD_Character_DD_CharacterHasAdventure" Member="DD_CharacterHasAdventures" ThisKey="ID" OtherKey="CharacterID" Type="DD_CharacterHasAdventure" />
+      <Association Name="DD_Character_DD_CharacterHasItem" Member="DD_CharacterHasItems" ThisKey="ID" OtherKey="CharacterID" Type="DD_CharacterHasItem" />
+      <Association Name="DD_Character_DD_CharacterHasPack" Member="DD_CharacterHasPacks" ThisKey="ID" OtherKey="CharacterID" Type="DD_CharacterHasPack" />
+      <Association Name="DD_Character_DD_CharacterHasSkill" Member="DD_CharacterHasSkills" ThisKey="ID" OtherKey="CharacterID" Type="DD_CharacterHasSkill" />
+      <Association Name="DD_Character_DD_CharacterHasSpell" Member="DD_CharacterHasSpells" ThisKey="ID" OtherKey="CharacterID" Type="DD_CharacterHasSpell" />
+      <Association Name="DD_User_DD_Character" Member="DD_User" ThisKey="UserID" OtherKey="ID" Type="DD_User" IsForeignKey="true" />
+      <Association Name="DD_Class_DD_Character" Member="DD_Class" ThisKey="ClassID" OtherKey="ID" Type="DD_Class" IsForeignKey="true" />
+      <Association Name="DD_Race_DD_Character" Member="DD_Race" ThisKey="RaceID" OtherKey="ID" Type="DD_Race" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_CharacterHasAction" Member="DD_CharacterHasActions">
+    <Type Name="DD_CharacterHasAction">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ActionID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Action_DD_CharacterHasAction" Member="DD_Action" ThisKey="ActionID" OtherKey="ID" Type="DD_Action" IsForeignKey="true" />
+      <Association Name="DD_Character_DD_CharacterHasAction" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_CharacterHasAdventure" Member="DD_CharacterHasAdventures">
+    <Type Name="DD_CharacterHasAdventure">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AdventureID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="StartDate" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsComplete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="DungeonMaster" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="DD_Adventure_DD_CharacterHasAdventure" Member="DD_Adventure" ThisKey="AdventureID" OtherKey="ID" Type="DD_Adventure" IsForeignKey="true" />
+      <Association Name="DD_Character_DD_CharacterHasAdventure" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_CharacterHasItem" Member="DD_CharacterHasItems">
+    <Type Name="DD_CharacterHasItem">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ItemID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentDurability" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DD_Character_DD_CharacterHasItem" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+      <Association Name="DD_Item_DD_CharacterHasItem" Member="DD_Item" ThisKey="ItemID" OtherKey="ID" Type="DD_Item" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_CharacterHasPack" Member="DD_CharacterHasPacks">
+    <Type Name="DD_CharacterHasPack">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PackID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CurrentCapacity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Character_DD_CharacterHasPack" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+      <Association Name="DD_Pack_DD_CharacterHasPack" Member="DD_Pack" ThisKey="PackID" OtherKey="ID" Type="DD_Pack" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_CharacterHasSkill" Member="DD_CharacterHasSkills">
+    <Type Name="DD_CharacterHasSkill">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SkillID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Value" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Character_DD_CharacterHasSkill" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+      <Association Name="DD_Skill_DD_CharacterHasSkill" Member="DD_Skill" ThisKey="SkillID" OtherKey="ID" Type="DD_Skill" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_CharacterHasSpell" Member="DD_CharacterHasSpells">
+    <Type Name="DD_CharacterHasSpell">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CharacterID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SpellID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Character_DD_CharacterHasSpell" Member="DD_Character" ThisKey="CharacterID" OtherKey="ID" Type="DD_Character" IsForeignKey="true" />
+      <Association Name="DD_Spell_DD_CharacterHasSpell" Member="DD_Spell" ThisKey="SpellID" OtherKey="ID" Type="DD_Spell" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Class" Member="DD_Classes">
+    <Type Name="DD_Class">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Class_DD_Action" Member="DD_Actions" ThisKey="ID" OtherKey="ClassID" Type="DD_Action" />
+      <Association Name="DD_Class_DD_Character" Member="DD_Characters" ThisKey="ID" OtherKey="ClassID" Type="DD_Character" />
+      <Association Name="DD_Class_DD_Spell" Member="DD_Spells" ThisKey="ID" OtherKey="ClassID" Type="DD_Spell" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Creep" Member="DD_Creeps">
+    <Type Name="DD_Creep">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Creep_DD_Beastiary" Member="DD_Beastiaries" ThisKey="ID" OtherKey="CreepID" Type="DD_Beastiary" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Item" Member="DD_Items">
+    <Type Name="DD_Item">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MaxDurability" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DD_Item_DD_CharacterHasItem" Member="DD_CharacterHasItems" ThisKey="ID" OtherKey="ItemID" Type="DD_CharacterHasItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Pack" Member="DD_Packs">
+    <Type Name="DD_Pack">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MaxCapacity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Pack_DD_CharacterHasPack" Member="DD_CharacterHasPacks" ThisKey="ID" OtherKey="PackID" Type="DD_CharacterHasPack" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Race" Member="DD_Races">
+    <Type Name="DD_Race">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Race_DD_Action" Member="DD_Actions" ThisKey="ID" OtherKey="RaceID" Type="DD_Action" />
+      <Association Name="DD_Race_DD_Character" Member="DD_Characters" ThisKey="ID" OtherKey="RaceID" Type="DD_Character" />
+      <Association Name="DD_Race_DD_Spell" Member="DD_Spells" ThisKey="ID" OtherKey="RaceID" Type="DD_Spell" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Skill" Member="DD_Skills">
+    <Type Name="DD_Skill">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="DD_Skill_DD_CharacterHasSkill" Member="DD_CharacterHasSkills" ThisKey="ID" OtherKey="SkillID" Type="DD_CharacterHasSkill" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DD_Spell" Member="DD_Spells">
+    <Type Name="DD_Spell">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="RaceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RequiredLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ManaCost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="DD_Spell_DD_CharacterHasSpell" Member="DD_CharacterHasSpells" ThisKey="ID" OtherKey="SpellID" Type="DD_CharacterHasSpell" />
+      <Association Name="DD_Class_DD_Spell" Member="DD_Class" ThisKey="ClassID" OtherKey="ID" Type="DD_Class" IsForeignKey="true" />
+      <Association Name="DD_Race_DD_Spell" Member="DD_Race" ThisKey="RaceID" OtherKey="ID" Type="DD_Race" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

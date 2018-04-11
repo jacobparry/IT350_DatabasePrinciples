@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="DungeonsDragons.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>DungeonsDragons</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Styles/Custom.css" />
+    <link rel="stylesheet" href="Styles/pages.css" />
+
+    <%-- Jquery has to go before the Javascript. --%>
+    <script src="bootstrap/js/jquery-3.1.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <%-- I had to add the ScriptManager so the Modals would work. AjaxToolKit Requires a ScriptManager. --%>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+         <asp:HiddenField ID="hfUserID" runat="server" />
+
+        <div>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="Welcome.aspx">DungeonTracker</a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li><a href="Welcome.aspx">Home</a></li>
+                        <li><a href="Profile.aspx">Profile</a></li>
+                        <li><a href="CharacterSheet.aspx">Character Sheets</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <asp:LinkButton ID="lbAddUser" runat="server" OnClick="lbAddUser_Click">
+                                <span class="glyphicon glyphicon-user">Sign Up</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lbLogin" runat="server" OnClick="lbLogin_Click" Visible="true">
+                                <span class="glyphicon glyphicon-log-in">Login</span>
+                            </asp:LinkButton>
+                        </li>
+                        <li>
+                            <asp:LinkButton ID="lbLogout" runat="server" OnClick="lbLogout_Click" Visible="false">
+                                <span class="glyphicon glyphicon-log-out">Logout</span>
+                            </asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <%-- This is how we add a userControl. We have to had it in a few places. --%>
+        <%-- 1. Here at the bottom of our page right before the closing content tag. --%>
+        <%-- 2. At the top of the .cs page as a protected variable. --%>
+        <%-- 3. In the WebControls.config file. --%>
+        <ucUser:AddUser ID="ucAddUserModal" runat="server"></ucUser:AddUser>
+        <ucUser:LoginModal ID="ucLoginModal" runat="server"></ucUser:LoginModal>
+    </form>
+</body>
+</html>
